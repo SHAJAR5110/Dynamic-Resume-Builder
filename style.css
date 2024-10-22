@@ -1,0 +1,109 @@
+*{
+    font-weight: 900;
+    font-family: serif;
+    box-sizing: border-box;
+}
+h1{
+text-align: center;
+text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+.container{
+    width: 50%;
+    background-color: lightblue;
+    margin-left: 27%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    flex-direction: column;
+    
+}
+#form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+
+  }
+  .typeFile{
+    width: 100%;
+    height: 1.4rem;
+  }
+  textarea{
+    height: 180px;
+  }
+#picture{
+    float: right;
+
+}
+#labelOfImage{
+  background-color: #35ccff;
+  border: 2px solid black;
+  width: 30%;
+  color: white;
+  padding: 1px 1px;
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: large;
+}
+button{
+  background-color: #008CBA;
+  border: 2px;
+  width: 100%;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: large;
+}
+h1{
+  text-align: center;
+}
+button:hover{
+    color: #008CBA;
+    background-color: white;
+    border: 2px solid #008CBA;   
+}
+.resumeDisplay{
+  width: 50%;
+  height: 50%;
+  background-color: lightblue;
+  margin-left: 27%;
+  margin-top: 18%;
+  border: 2px solid black;
+}
+@media (max-width:500px) {
+  .resumeDisplay{
+    margin-top: 20rem;
+  }
+  #picture{
+    float: right;
+    margin: 0px auto;
+    
+  }
+  .typeFile{
+    padding-left: 0px;
+  }
+  #labelOfImage{
+    width: 100%;
+  }
+}
